@@ -17,37 +17,9 @@ Performed EDA using Python to understand the dataset, visualize distributions, a
 
 Utilized machine learning techniques, including Logistic Regression, Random Forest, and XGBoost, to create a predictive model for diabetes detection. The model underwent optimization and evaluation to ensure robust performance.
 
-## Deployment
-
-The model is deployed using Streamlit, providing an interactive web interface for users to input medical data and receive predictions about the likelihood of diabetes.
 
 ## Project Structure
 
 - `notebooks/`: Contains Jupyter notebooks for EDA and model development.
 - `model/`: Stores the trained and optimized machine learning model files.
-- `streamlit/`: Holds the Streamlit app files for model deployment.
 - `dataset/`: The dataset used for training and testing the model.
-
-## Usage
-### A. Use the deployed webapp:
-[Click here](google.com)
-
-### B. Run this locally:
-1. Clone the repository:
-
-   ```bash
-   git clone https://github.com/your-username/diabetes-prediction.git
-   cd diabetes-prediction
-   ```
-2. Install dependencies:
-    ```bash
-    pip install -r requirements.txt
-    ```
-3. Run the Streamlit app:
-    ```bash
-    streamlit run streamlit/app.py
-    ```
-
-Visit the Streamlit app in your web browser to interact with the deployed model.
-
-Feel free to have fun with this!
